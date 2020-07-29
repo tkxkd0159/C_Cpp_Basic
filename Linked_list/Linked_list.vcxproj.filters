@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cygwinTest.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="other_file_test.c">
+    <ClCompile Include="Doubly_llist.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
