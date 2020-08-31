@@ -17,9 +17,10 @@ void init(DListNode* phead)
 void print_dlist(DListNode* phead)
 {
 	DListNode* p;
-	for (p = phead->rlink; p != phead; p = p->rlink) {
+	for (p = phead->rlink; p != phead; p = p->rlink) 
+	{
 		printf("<-| |%d| |->", p->data);
-		}
+	}
 	printf("\n");
 }
 
