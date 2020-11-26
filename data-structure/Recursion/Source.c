@@ -37,7 +37,7 @@ double recur_power(double base, int power)
 	else return recur_power(base * base, (power - 1) / 2) * base;
 }
 
-int fibo(int n)  // °ªÀ» ±â¾ïÇÏÁö ¾Ê°í ¿¬»êÇÏ´Â °ÍÀÌ±â ¶§¹®¿¡ fibo(6)¸¸ °è»êÇØµµ fibo¸¦ 25¹ø È£ÃâÇØ¾ß ÇÔ.
+int fibo(int n)  // ê°’ì„ ê¸°ì–µí•˜ì§€ ì•Šê³  ì—°ì‚°í•˜ëŠ” ê²ƒì´ê¸° ë•Œë¬¸ì— fibo(6)ë§Œ ê³„ì‚°í•´ë„ fiboë¥¼ 25ë²ˆ í˜¸ì¶œí•´ì•¼ í•¨.
 {
 	if (n == 0) return 0;
 	if (n == 1) return 1;
